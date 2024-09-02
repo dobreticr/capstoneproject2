@@ -1,0 +1,53 @@
+.hero {
+    font-size: 45px;
+    margin-top: 0;
+    padding-top: 0;
+    height: 500px;
+    position: relative;
+    align-content: center;
+    color: rgb(0, 195, 255);
+    
+}
+
+.gradient-background {
+    background: linear-gradient(to left, #283048, #859398);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite; }
+
+@keyframes gradient-animation {
+    0% {
+    background-position: 0% 50%;
+        }
+    50% {
+    background-position: 100% 50%;
+        }
+    100% {
+    background-position: 0% 50%;
+    } }
+
+        .hero p{
+            font-size: 30px;
+        }
+
+.icon-square {
+     width: 3rem;
+     height: 3rem;
+     border-radius: .75rem;
+        }
+
+.proojects > h2, h3 {
+    color: rgb(0, 162, 255)
+    
+}        
+      
+
+.card:hover {
+    opacity:0.8;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    
+    
+}
